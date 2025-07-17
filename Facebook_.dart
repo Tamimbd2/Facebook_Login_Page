@@ -108,7 +108,14 @@ class screen extends StatelessWidget {
                            SnackBar(content: Text('Login Success')),
                          );
                    }
-                  }, child: Text('Login'),)),
+                  },
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: Colors.blueAccent,
+                      foregroundColor: Colors.white,
+
+                    ),
+
+                    child: Text('Login'),)),
             )
           ],
         ),
